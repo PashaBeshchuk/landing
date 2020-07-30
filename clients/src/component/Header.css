@@ -1,0 +1,292 @@
+.menu {
+    font-family: 'Open Sans';
+}
+.menu-modal {
+    position: absolute;
+    top: -27px;
+}
+.img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 50px;
+    color: #d8a953;
+}
+.img div.head {
+    padding-top: 6%;
+    margin-left: 4%;
+}
+.img div.text {
+    padding-top: 3%;
+    margin-left: 4%;
+    font-size: 17px;
+    width: 50%;
+}
+.sign-button {
+    margin-top: 7%;
+    margin-bottom: 30px;
+}
+.body-advantages {
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        font-size: 20px;
+        line-height: 10px;
+    } 
+    .head {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .employees-h5 {
+        font-size: 15px;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .img {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .advantage-h1, .employees-h1, .body-registation h1 {
+        font-size: 50px;
+    }
+    .employees-h5 {
+        font-size: 20px;
+    }
+    .body-registation h5 {
+        font-size: 16px;
+    }
+}
+.advantage-content__text > div {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+@media screen and (min-width: 1310px) {
+    .advantage-content__text {
+        font-size: 18px;
+    }
+    .advantage-content__img {
+        padding-left: 50px;
+    }
+    .advantage-h1, .employees-h1, .body-registation h1 {
+        font-size: 60px;
+    }
+    .advantage-content__img {
+        height: 318px;
+    }
+    .advantage-content__text > div {
+        font-size: 20px;
+    }
+    .employees-h5 {
+        color:10px;
+    }
+    .body-registation h5 {
+        font-size: 20px;
+    }
+    
+}
+@media screen and (min-width: 1280px) and (max-width: 1310px) {
+    .advantage-content__text {
+        font-size: 17.5px;
+    }
+    .advantage-content__img {
+        padding-left: 50px;
+    }
+    .advantage-h1, .employees-h1, .body-registation h1 {
+        font-size: 60px;
+    }
+    .advantage-content__img {
+        height: 318px;
+    }
+    .advantage-content__text > div {
+        font-size: 19.5px;
+    }
+    .employees-h5 {
+        font-size: 15px;
+    }
+    .user-data h2 {
+        font-size:30px;
+    }
+    .user-data p {
+        font-size: 17px;
+    }
+    .body-registation h5 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
+    .advantage-content__text {
+        font-size: 16px;
+    }
+    .advantage-h1, .employees-h1, .body-registation h1 {
+        font-size: 60px;
+    }
+    .advantage-content__img {
+        height: 318px;
+    }
+    .advantage-content__text > div {
+        font-size: 18px;
+    }
+    .employees-h5 {
+        color:15px;
+    }
+    .user-data h2 {
+        font-size:28px;
+    }
+    .user-data p {
+        font-size: 18px;
+    }
+    .body-registation h5 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .advantage-content {
+        flex-direction:column;
+        align-items: center;
+    }
+    .advantage-content__text {
+        margin-top: 50px;
+    }
+    .advantage-content__img {
+        height: 250px;
+    } 
+    .advantage-content__text > h3 {
+        font-size: 23px;
+    }
+    .advantage-content__text > p {
+        font-size: 16px;
+    }
+    .advantage-content__text > div {
+        font-size: 18px;
+    }
+    .employees-h5 {
+        color:15px;
+    }
+    .user-data h2 {
+        font-size:24px;
+    }
+    .user-data p {
+        font-size: 16px;
+    }
+    .body-registation h5 {
+        font-size: 14px;
+    }   
+    
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    .img div.head {
+        padding-top: 4%;
+        margin-left: 4%;
+        font-size: 15px;
+    }
+    .img div.text {
+        padding-top: 1%;
+        margin-left: 4%;
+        font-size: 11px;
+        width: 50%;
+    }
+    .advantage-h1, .employees-h1, .body-registation h1 {
+        font-size: 30px;
+    }
+    .advantage-content__img {
+        height: 250px;
+        margin: 0;
+    }
+    .advantage-content__text > h3 {
+        font-size: 16px;
+    }
+    .advantage-content__text > p {
+        font-size: 14px;
+    }
+    .advantage-content__text > div {
+        font-size: 15px;
+    }
+    .employees-h5 {
+        font-size:12px;
+    }
+    .user-data h2 {
+        font-size:21px;
+    }
+    .user-data p {
+        font-size: 15px;
+    }
+    .body-registation h5 {
+        font-size: 15px;
+    }      
+}
+
+.advantage-h1 {
+    display: table;
+    margin: 0px auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.advantage-content {
+    display: inline-flex;
+    width: 95%;
+    margin: auto;
+    margin: 0px 20px 0px 20px;
+}
+
+.advantage-content__img > div {
+    margin-left: 20px;
+} 
+
+.advantage-content__text {
+    width: 54%;
+    margin-left: 40px;
+}
+.employees-h1, .body-registation h1 {
+    display: table;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+.employees-h5, .body-registation h5 {
+    display: table;
+    margin: 0px auto;
+    color:#b39090;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.body-registation h5 {
+    width: 47%;
+    text-align: center;
+}    
+.employees-body {
+    background-color: #f7f0f7;
+    padding-bottom: 40px;
+}
+.user-data {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.user-data p {
+    width: 50%;
+    margin: auto; 
+}
+.employees-body button {
+    display: block;
+    margin: auto;
+}
+.user-data img {
+    width: 30%;
+}
+.list-users-data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.fa-grin-tongue-wink {
+    width: 20%;
+    height: 20%;
+}
+
